@@ -18,6 +18,7 @@ public class ToDoList {
     }
 
     public boolean isEmpty() {
+        // Returns true if this list contains no elements.
         return tasks.isEmpty();
     }
 

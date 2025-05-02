@@ -10,7 +10,7 @@ public class ToDoListTest {
         list.addTask("Laundry");
         list.addTask("Groceries");
 
-        list.completeAllTasks();
+        list.completeAllTasks(); // The list should be empty afterward.
 
         assertTrue(list.isEmpty());
     }
