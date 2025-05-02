@@ -24,7 +24,7 @@ public class EmployeeDirectory {
      * If we try to find a value for a key that doesn’t exist in the map, we’ll get a null value.
      * */
     public String getEmployee(int id) {
-        return directory.get(id); // keys must always be unique
+        return directory.get(id); // keys must always be unique. Therefore, it is using Set data structure.
     }
 
     /**
