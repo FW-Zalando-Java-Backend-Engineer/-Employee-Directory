@@ -56,7 +56,7 @@ public class EmployeeDirectory {
      * iterate over all key-value pairs: print the employee id and name.
      * */
     public void displayEmployees(){
-        //1- Prior to Java 8:
+     /*   //1- Prior to Java 8:
 
         // iterate over entries
         for(HashMap.Entry<Integer, String> entry: directory.entrySet()){
@@ -78,7 +78,7 @@ public class EmployeeDirectory {
         for(String employeeName:employeesNames ){
             System.out.println("Employee Name:"+employeeName);
         }
-
+    */
         //2- As of Java 8:
 
         // 'forEach' method is the functional-style way to iterate over all elements in the map.
